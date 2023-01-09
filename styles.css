@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -38,6 +39,8 @@ a {
     display: flex;
     flex:1;
     padding: 0 200px;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
 
 .left, .right {
@@ -80,6 +83,7 @@ a {
     align-items: center;
     font-style: italic;
     color: 1f2937;
+    font-weight: 300;
 }
 
 .author {
@@ -88,11 +92,19 @@ a {
     height: 50px;
 }
 
+.container {
+    display: flex;
+    flex: 1;
+    padding: 50px 200px;
+    background-color: white;
+}
+
 .card {
     display: flex;
     flex: 1;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882F6;
     padding: 0 200px;
 }
 
@@ -106,7 +118,13 @@ a {
 }
 
 button {
+    color:#e5e7eb;
     background-color: #3882F6;
     height: 50px;
     width: 100px;
+    border-radius: 7px;
+}
+
+.two {
+    border: 2px solid #f9faf8;
 }
